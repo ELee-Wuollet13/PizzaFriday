@@ -1,36 +1,39 @@
-//takes use input
-function YourOrder() {
-  this.order = [],
-  this.item = 0
-  console.log()
+// ---------Backend kitchen logic----------//
+  function kitchen() {
+    this.order = [],
+    this.item = 0
+    console.log(kitchen)
+  }
+kitchen.prototype.addPizza = function(thisPizza) {
+  thisPizza.id = this.assignId();
+  this.order.push(thisPizza);
 }
-
-$(document).ready(function() {
-  $("form#size-form").submit(function(event) {
-    event.preventDefault();
-    // var size = $("select#size-select").val();
-    // var topping1 = $("select#topping1-select").val();
-    // var topping2 = $("select#topping2-select").val();
-    // var Pizza = new Pizza(size, topping1, topping2);
-
-    // console.log(size)
-    // console.log(topping1)
-    // console.log(topping2)
-
-
-  function Pizza(pizzaSize, firstTopping, secondTopping, cost) {
-    this.pizzaSize = $("select#size-select").val();
-    this.firstTopping = $("select#topping1-select").val();
-    this.secondTopping = $("select#topping2-select").val();
-    this.cost = price;
-
-var thisPizza = new Pizza("size", "topping1", "topping2") {
-  .push(YourOrder)
-};
-
-console.log(Pizza)
-
+kitchen.prototype.assignId = function() {
+  this.currentId += 1;
+  return this.currentId;
+}
+// ----------Backend Pizza logic---------
+      // var Pizza = new Pizza(size, topping1, topping2);
+ function thisPizza(size, topping1, topping2) {
+      this.siza = size;
+      this.firstTopping = topping1;
+      this.secondTopping = topping2;
+      // this.cost = price;
+      console.log(topping1)
+    };
 //Pizza constructor
-};
-});
+$(document).ready(function() {
+  $("form#order-form").submit(function(event) {
+    event.preventDefault();
+    var inputtedSize = $("select#size-select").val();
+    var inputtedTopping1 = $("select#topping1-select").val();
+    var inputtedTopping2 = $("select#topping2-select").val();
+    var thisPizza = new Pizza("inputtedSize", "inputtedTopping1", "inputtedTopping2");
+    kitchen.addPizza(thisPizza);
+    console.log(inputtedSize);
+    console.log(inputtedTopping1);
+    console.log(inputtedTopping2);
+    // .push(YourOrder)
+    console.log(Pizza)
+  });
 });
