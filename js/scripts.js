@@ -1,26 +1,28 @@
 // ---------Backend kitchen logic----------//
-  function kitchen() {
-    this.order = [],
-    this.item = 0
-    console.log(kitchen)
-  }
-kitchen.prototype.addPizza = function(thisPizza) {
-  thisPizza.id = this.assignId();
-  this.order.push(thisPizza);
+function Kitchen() {
+    this.order = []
+    // this.item = 0
+    // console.log(order)
 }
-kitchen.prototype.assignId = function() {
-  this.currentId += 1;
-  return this.currentId;
+Kitchen.prototype.addPizza = function(Pizza) {
+  // thisPizza.id = this.assignId();
+  this.order.push(Pizza);
 }
+
 // ----------Backend Pizza logic---------
+function Pizza(size, topping1, topping2) {
+  this.size = size;
+  this.firstTopping = topping1;
+  this.secondTopping = topping2;
+  // this.cost = price;
+  console.log(topping1)
+}
+
+// Kitchen.prototype.assignId = function() {
+//   this.currentId += 1;
+//   return this.currentId;
+// }
       // var Pizza = new Pizza(size, topping1, topping2);
- function thisPizza(size, topping1, topping2) {
-      this.siza = size;
-      this.firstTopping = topping1;
-      this.secondTopping = topping2;
-      // this.cost = price;
-      console.log(topping1)
-    };
 //Pizza constructor
 $(document).ready(function() {
   $("form#order-form").submit(function(event) {
@@ -29,7 +31,7 @@ $(document).ready(function() {
     var inputtedTopping1 = $("select#topping1-select").val();
     var inputtedTopping2 = $("select#topping2-select").val();
     var thisPizza = new Pizza("inputtedSize", "inputtedTopping1", "inputtedTopping2");
-    kitchen.addPizza(thisPizza);
+    Kitchen.addPizza(thisPizza);
     console.log(inputtedSize);
     console.log(inputtedTopping1);
     console.log(inputtedTopping2);
