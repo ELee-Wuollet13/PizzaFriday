@@ -1,37 +1,34 @@
-# _{Application Name}_
+# _MADHOUSE Pizza_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A site for ordering unusual Pizza, 6/21/2019_
 
-#### By _**{List of contributors}**_
+#### By _Eveerett Lee-Wuollet_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This application currently uses three selectors to let the user choose one of three sizes and two of ten toppings. I combines these in the backend logic 'kitchen' to make the Pizza and with a little more work return it to the customer in all its wierd a delicious glory._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Access this program on GitHub.com_
+* _Search my GitHub account at ELee-Wuollet13_
+* _Select 'PizzaFriday from my repositories_
+* _Clone the URL link at the top_
+* _Open the console control(or GitBash on pc) and type 'git clone ' and paste the coppied URL_
+* _Enter the new folder by double-clicking and then double click on the object 'index.html' and selecting you main browser
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_Currently this app is experiencing difficulty defining certain functions and properly recognizing which bits do what. Work is ongoing._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If you have questions or comment I can be most easily reached at: everett.leewuollet@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_This app primarily uses JavaScript, relying on Constructors, objects and prototypes._
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2016 **_{Everett R Lee-Wuollet}_**
