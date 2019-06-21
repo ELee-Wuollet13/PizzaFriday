@@ -22,8 +22,21 @@ function Pizza(size, topping1, topping2) {
 //   this.currentId += 1;
 //   return this.currentId;
 // }
-      // var Pizza = new Pizza(size, topping1, topping2);
-//Pizza constructor
+
+
+//---------Front end customer logic--------------
+  var kitchen = new Kitchen();
+
+  function serveDatVirtualPizza(pizzaWorthShowing) {
+    var thePizzas = $("ul#order");
+    var htmlforPizzaInfo = "";
+    pizzaWorthShowing.order.forEach(function(Pizza) {
+      htmlForPizzaInfo += "<li id="  "Pizza" "</li>";
+    });
+    thePizzas.html(htmlForPizzaInfo);
+  };
+
+
 $(document).ready(function() {
   $("form#order-form").submit(function(event) {
     event.preventDefault();
@@ -32,6 +45,7 @@ $(document).ready(function() {
     var inputtedTopping2 = $("select#topping2-select").val();
     var thisPizza = new Pizza("inputtedSize", "inputtedTopping1", "inputtedTopping2");
     Kitchen.addPizza(thisPizza);
+    serveDatVirtualPizza(order);
     console.log(inputtedSize);
     console.log(inputtedTopping1);
     console.log(inputtedTopping2);
