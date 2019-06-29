@@ -1,56 +1,50 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Madhouse Pizza</title>
-  </head>
-  <body>
-    <h2>MADHOUSE PIZZA</h2>
-    <h1>Pizza</h1>
-    <form id="order-form">
-      <div class="form-group">
-          <label for="size-select"></label>
-          <select class="form-control" id="size-select">
-            <option>--How big is this party?--</option>
-            <option>$13 A few friends</option>
-            <option>$18 Extended family who are cool enough for pizza</option>
-            <option>$24 Pack of rabid children/the band and all their roadies/Literal Monsters</option>
-          </select>
+<head>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Madhouse Pizza</title>
+</head>
+<body>
+  <h2>MADHOUSE PIZZA</h2>
+  <h1>Pizza</h1>
+  <form id="order-form">
+    <div class="form-group">
+      <label for="size-select"></label>
+      <select class="form-control" id="size-select">
+        <option>--How big is this party?--</option>
+        <option> A few friends</option>
+        <option> Extended family who are cool enough for pizza</option>
+        <option> Pack of rabid children/the band and all their roadies/Literal Monsters</option>
+      </select>
       <h1>First toppings</h1>
-      <!-- <form id="topping1-form"> -->
-        <!-- <div class="form-group"> -->
-            <label for="topping1-select"></label>
-            <select class="form-control" id="topping1-select">
-              <option>--TOPings--</option>
-              <option>Tortilla chips</option>
-              <option>Chicken</option>
-              <option>Peanut Butter</option>
-              <option>Artichoke</option>
-              <option>Extra Cheese</option>
-              <option>Pineapple(because it does belong here)</option>
-            </select>
-        <!-- </div> -->
-        <h1>Second toppings</h1>
-        <!-- <form id="topping2-form"> -->
-          <!-- <div class="form-group"> -->
-              <label for="Topping2-select"></label>
-              <select class="form-control" id="topping2-select">
-                <option>--Bottom toppings--</option>
-                <option>Guacamole</option>
-                <option>Onion and Barbecue Sauce</option>
-                <option>Pickles</option>
-                <option>Feta cheese</option>
-                <option>Pepperoni</option>
-                <option>Bacon(From Canada, so you know it's good)</option>
-              </select>
-              <!-- <button type="button" name="button">Add more stuff to this pie</button> -->
-              <button type="Click" class="btn btn-danger">Lets do this!</button>
-          <!-- </div> -->
-        </div>
-        </form>
-    <div id="serveDatVirtualPizza"></div>
+      <label for="topping1-select"></label>
+      <select class="form-control" id="topping1-select">
+        <option>--TOPings--</option>
+        <option>Tortilla chips</option>
+        <option>Chicken</option>
+        <option>Peanut Butter</option>
+        <option>Artichoke</option>
+        <option>Extra Cheese</option>
+        <option>Pineapple(because it does belong here)</option>
+      </select>
+      <h1>Second toppings</h1>
+      <label for="Topping2-select"></label>
+      <select class="form-control" id="topping2-select">
+        <option>--Bottom toppings--</option>
+        <option>Guacamole</option>
+        <option>Onion and Barbecue Sauce</option>
+        <option>Pickles</option>
+        <option>Feta cheese</option>
+        <option>Pepperoni</option>
+        <option>Bacon(From Canada, so you know it's good)</option>
+      </select>
+      <button type="Click" class="btn btn-danger">Lets do this!</button>
+    </div>
+        <ul id="solution"></ul>
+      </div>
+    </form>
   </body>
-</html>
+  </html>
