@@ -7,7 +7,11 @@
 ## Description
 
 
-_This application currently uses three selectors to let the user choose one of three sizes and two of ten toppings. It combines these in the backend logic prototype called 'pizza' to make the Pizza and return it to the customer. The price is currently tied directly to the size._
+| When run this application takes user input of size and two toppings| A few friends, peanut butter, pickles |
+| It runs these through a constructor called pizza | (A few friends, peanut butter, pickles) |
+| It calculates cost based on size | a few friends | $18 |
+| It returns these values to the user | Your pizza is | A few friends, peanut butter, pickles, $18 |
+
 
 ## Setup/Installation Requirements
 
