@@ -1,12 +1,13 @@
 # _MADHOUSE Pizza_
 
-#### _A site for ordering unusual Pizza, 6/21/2019_
+#### _A site for ordering unusual Pizza, 6/29/2019_
 
-#### By _Eveerett Lee-Wuollet_
+#### By _Everett Lee-Wuollet_
 
 ## Description
 
-_This application currently uses three selectors to let the user choose one of three sizes and two of ten toppings. I combines these in the backend logic 'kitchen' to make the Pizza and with a little more work return it to the customer in all its wierd a delicious glory._
+
+_This application currently uses three selectors to let the user choose one of three sizes and two of ten toppings. It combines these in the backend logic prototype called 'pizza' to make the Pizza and return it to the customer. The price is currently tied directly to the size._
 
 ## Setup/Installation Requirements
 
@@ -14,12 +15,12 @@ _This application currently uses three selectors to let the user choose one of t
 * _Search my GitHub account at ELee-Wuollet13_
 * _Select 'PizzaFriday from my repositories_
 * _Clone the URL link at the top_
-* _Open the console control(or GitBash on pc) and type 'git clone ' and paste the coppied URL_
+* _Open the console control(or GitBash on pc) and type 'git clone ' and paste the copied URL_
 * _Enter the new folder by double-clicking and then double click on the object 'index.html' and selecting you main browser
 
 ## Known Bugs
 
-_Currently this app is experiencing difficulty defining certain functions and properly recognizing which bits do what. Work is ongoing._
+_Currently this app produces the result without spaces between the sections defining size and toppings. Work is ongoing._
 
 ## Support and contact details
 
